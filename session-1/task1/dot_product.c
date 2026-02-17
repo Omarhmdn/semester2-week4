@@ -9,11 +9,17 @@
     float a[]={ 1.0,1.0,1.0,1.0,1.0 };
     float b[]={ 2.0,3.0,4.0,5.0,6.0 };
     float d;
-
     /*
     Code to compute the dot product
     Store your answer in d
     print your final answer
     */
-    return 0;
+
+   for ( int k=0; k<5; k++ ){
+      d = d + a[k] * b[k];
+
+   }
+
+   printf("Dot product: %2f", d);
+   return 0;
  }
